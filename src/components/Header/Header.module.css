@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    background-color: #fafafa;
+    border-radius: 10px;
+
+    img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 408px) {
+    .header img {
+        width: 300px;
+    }
+}
